@@ -32,7 +32,7 @@ answers
         android:layout_centerHorizontal="true"
         android:layout_marginTop="84dp"
         android:text="change font" />
-RelativeLayout>
+</RelativeLayout>
 
 PROGRAM:(JAVA CODING):
 
