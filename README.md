@@ -80,7 +80,8 @@ PROGRAM:(XML CODING):
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
-    <Button
+	hi
+    <Button hi
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -97,6 +98,11 @@ PROGRAM:(XML CODING):
         android:layout_marginTop="84dp"
         android:text="change font" />
 </RelativeLayout>
+
+
+
+hi
+
 
 ==========================================================================================================================
 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
