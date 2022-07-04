@@ -11,12 +11,12 @@ RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
-    <TextView
+    TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
-    <Button
+    Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@ RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="78dp"
         android:text="change color" />
-    <Button
+    Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,7 +99,7 @@ public class MainActivity extends Activity {
 
 PROGRAM:(XML CODING):
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -108,13 +108,13 @@ PROGRAM:(XML CODING):
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
-    <TextView
+    TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 	hi
-    <Button hi
+    Button hi
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -122,7 +122,7 @@ PROGRAM:(XML CODING):
         android:layout_centerHorizontal="true"
         android:layout_marginTop="78dp"
         android:text="change color" />
-    <Button
+    Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -130,7 +130,7 @@ PROGRAM:(XML CODING):
         android:layout_centerHorizontal="true"
         android:layout_marginTop="84dp"
         android:text="change font" />
-</RelativeLayout>
+</RelativeLayout
 
 
 
@@ -141,7 +141,7 @@ hi
 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
 
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
  xmlns:tools="http://schemas.android.com/tools"
  android:layout_width="match_parent"
  android:layout_height="match_parent"
@@ -150,7 +150,7 @@ hi
  android:paddingRight="@dimen/activity_horizontal_margin"
  android:paddingTop="@dimen/activity_vertical_margin"
  tools:context=".MainActivity" >
- <TextView
+ TextView
  android:id="@+id/textView1"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
@@ -158,7 +158,7 @@ hi
  android:layout_centerHorizontal="true"
  android:layout_marginTop="42dp"
  android:textAppearance="?android:attr/textAppearanceMedium" />
- <TextView
+ TextView
  android:id="@+id/textView2"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
@@ -166,7 +166,7 @@ hi
  android:layout_centerHorizontal="true"
  android:text="User Name"
  android:textAppearance="?android:attr/textAppearanceMedium" />
- <EditText
+ EditText
  android:id="@+id/editText1"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
@@ -175,8 +175,8 @@ hi
  android:layout_marginTop="16dp"
  android:ems="10" >
  <requestFocus />
- </EditText>
- <TextView
+ /EditText>
+ TextView
  android:id="@+id/textView3"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
@@ -185,7 +185,7 @@ hi
 8
  android:text="Password"
  android:textAppearance="?android:attr/textAppearanceMedium" />
- <EditText
+ EditText
  android:id="@+id/editText2"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
@@ -194,7 +194,7 @@ hi
  android:layout_marginTop="30dp"
  android:ems="10"
  android:inputType="textPassword" />
- <Button
+ Button
  android:id="@+id/button1"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
@@ -202,13 +202,13 @@ hi
  android:layout_below="@+id/editText2"
  android:layout_marginTop="51dp"
  android:text="Button" />
-</RelativeLayout>
+</RelativeLayout
 second.xml (For Successful Login)
-<?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+?xml version="1.0" encoding="utf-8"?>
+AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
  android:layout_width="match_parent"
  android:layout_height="match_parent" >
- <TextView
+ TextView
  android:id="@+id/textView5"
  android:text="Successful"
  android:layout_width="wrap_content"
@@ -220,12 +220,12 @@ second.xml (For Successful Login)
 </AbsoluteLayout>
 third.xml (For Login Failed)
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
  android:layout_width="match_parent"
  android:layout_height="match_parent"
-9
+
  android:orientation="vertical" >
- <TextView
+ TextView
  android:id="@+id/textView6"
  android:text="Login Failed"
  android:layout_width="wrap_content"
@@ -234,7 +234,7 @@ third.xml (For Login Failed)
  android:layout_centerHorizontal="true"
  android:layout_marginTop="42dp"
  android:textAppearance="?android:attr/textAppearanceMedium" />
-</LinearLayout>
+</LinearLayout
 JAVA CODE
 package com.example.signin;
 import android.os.Bundle;
@@ -283,11 +283,11 @@ return true;
 333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
 
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
  xmlns:tools="http://schemas.android.com/tools"
  android:layout_width="match_parent"
  android:layout_height="match_parent" >
- <ImageView
+ ImageView
  android:id="@+id/imageView1"
  android:layout_width="wrap_content"
  android:layout_height="match_parent"
@@ -361,20 +361,20 @@ public class MainActivity extends Activity implements OnTouchListener {
 44444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
 
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
  xmlns:tools="http://schemas.android.com/tools"
  android:layout_width="match_parent"
  android:layout_height="match_parent"
 17
  android:orientation="vertical"
  android:gravity="center_vertical" >
- <Button
+ Button
  android:id="@+id/buttonSignIN"
  android:layout_width="fill_parent"
  android:layout_height="wrap_content"
  android:text="Sign In"
  android:onClick="signIn"/>
- <Button
+ Button
  android:id="@+id/buttonSignUP"
  android:layout_width="fill_parent"
  android:layout_height="wrap_content"
@@ -472,16 +472,16 @@ loginDataBaseAdapter.close();
 
 activity_main.xml
 Add the following code in an activity_main.xml file.
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/a
+?xml version="1.0" encoding="utf-8"?>
+android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/a
 pk/res/android"
  xmlns:app="http://schemas.android.com/apk/res-auto"
  xmlns:tools="http://schemas.android.com/tools"
-21
+
  android:layout_width="match_parent"
  android:layout_height="match_parent"
  tools:context="example.javatpoint.com.androidnotification.MainActivity">
- <TextView
+ TextView
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
  android:text="ANDROID NOTIFICATION"
@@ -491,7 +491,7 @@ pk/res/android"
  app:layout_constraintTop_toTopOf="parent"
  app:layout_constraintVertical_bias="0.091"
  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
- <Button
+ Button
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
  android:id="@+id/button"
@@ -515,15 +515,15 @@ pk/res/android"
  android:layout_width="match_parent"
  android:layout_height="match_parent"
  tools:context="example.javatpoint.com.androidnotification.NotificationView">
- <TextView
+ TextView
  android:id="@+id/textView2"
  android:layout_width="fill_parent"
  android:layout_height="wrap_content"
  android:gravity="center"
  android:text="your detail of notification..."
  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
-22
- <TextView
+
+ TextView
  android:id="@+id/textView"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
@@ -538,7 +538,7 @@ pk/res/android"
  app:layout_constraintTop_toBottomOf="@+id/textView2"
  app:layout_constraintVertical_bias="0.206"
  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
-</android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout
 JAVA CODE
 package example.com.androidnotification;
 import android.app.NotificationManager;
@@ -613,32 +613,32 @@ public class NotificationView extends AppCompatActivity {
 ====================================================================================================
 666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
 
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+?xml version="1.0" encoding="utf-8"?>
+RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
  android:layout_width="fill_parent"
  android:layout_height="fill_parent"
  >
- <RelativeLayout
+ RelativeLayout
  android:id="@+id/firstlayout"
  android:layout_width="fill_parent"
  android:layout_height="wrap_content"
  android:gravity="center"
-26
+
  android:layout_marginTop="80dp">
- <TextView
+ TextView
  android:id="@+id/display"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
  android:text="@string/hello_world"
  android:textSize="19sp" />
  </RelativeLayout>
- <RelativeLayout
+ RelativeLayout
  android:id="@+id/secondlayout"
  android:layout_width="fill_parent"
  android:layout_height="wrap_content"
  android:layout_below="@+id/firstlayout"
  android:gravity="center">
- <TextView
+ TextView
  android:id="@+id/timer"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
@@ -647,21 +647,21 @@ public class NotificationView extends AppCompatActivity {
  android:layout_marginTop="80dp"
  android:textSize="36sp"/>
  </RelativeLayout>
- <RelativeLayout
+ RelativeLayout
  android:id="@+id/thirdlayout"
  android:layout_width="fill_parent"
  android:layout_height="wrap_content"
  android:layout_below="@+id/secondlayout"
  android:gravity="center">
- <Button
+ Button
  android:id="@+id/clickme"
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
  android:text="@string/button"
  android:visibility="invisible"
  android:layout_marginTop="100dp"/>
- </RelativeLayout>
-</RelativeLayout>
+ </RelativeLayout
+</RelativeLayout
 JAVA CODE
 package com.example.multithread;
 import android.app.Activity;
@@ -669,7 +669,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Button;
 import android.widget.TextView;
-27
+
 public class MainActivity extends Activity {
 Handler hand = new Handler();
 Button clickme;
@@ -703,20 +703,20 @@ hand.postDelayed(run, 1000);
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
 
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-34
+LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
  android:orientation="vertical"
  android:layout_width="fill_parent"
  android:layout_height="fill_parent"
 
 >
- <Button
+ Button
  android:layout_width="fill_parent"
  android:layout_height="wrap_content"
  android:text="Click To Upload File"
  android:id="@+id/uploadButton"
  />
- <TextView
+ TextView
  android:layout_width="fill_parent"
  android:layout_height="wrap_content"
  android:text=""
@@ -753,7 +753,7 @@ public class UploadToServer extends Activity {
 
  /********** File Path *************/
  final String uploadFilePath = "/mnt/sdcard/";
-35
+
  final String uploadFileName = "service_lifecycle.png";
 
  @Override
@@ -800,7 +800,7 @@ public class UploadToServer extends Activity {
  String boundary = "*****";
  int bytesRead, bytesAvailable, bufferSize;
  byte[] buffer;
-36
+
  int maxBufferSize = 1 * 1024 * 1024;
  File sourceFile = new File(sourceFileUri);
 
@@ -941,12 +941,12 @@ Toast.LENGTH_SHORT).show();
 =============================================================================================
 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
  xmlns:tools="http://schemas.android.com/tools"
  android:layout_width="match_parent"
  android:layout_height="match_parent"
  tools:context=".BroadcastPhoneStates" >
- <TextView
+ TextView
  android:layout_width="wrap_content"
  android:layout_height="wrap_content"
  android:layout_centerHorizontal="true"
@@ -1011,30 +1011,30 @@ Log.e("SmsReceiver", "Exception smsReceiver" +e);
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
  android:layout_width="match_parent"
  android:layout_height="match_parent"
  android:paddingLeft="20dp"
  android:paddingRight="20dp"
  android:orientation="vertical" >
- <EditText
+ EditText
  android:id="@+id/txtTo"
  android:layout_width="match_parent"
  android:layout_height="wrap_content"
  android:hint="To"/>
- <EditText
+ EditText
  android:id="@+id/txtSub"
  android:layout_width="match_parent"
  android:layout_height="wrap_content"
  android:hint="Subject"/>
- <EditText
+ EditText
  android:id="@+id/txtMsg"
  android:layout_width="match_parent"
  android:layout_height="0dp"
  android:layout_weight="1"
  android:gravity="top"
  android:hint="Message"/>
- <Button
+ Button
  android:layout_width="100dp"
  android:layout_height="wrap_content"
  android:layout_gravity="right"
@@ -1083,17 +1083,17 @@ public class MainActivity extends AppCompatActivity {
 
 
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 53
  android:orientation="vertical"
  android:layout_width="fill_parent"
  android:layout_height="fill_parent"
  >
-<Gallery
+Gallery
 android:id="@+id/Gallery01"
 android:layout_width="fill_parent"
 android:layout_height="wrap_content"></Gallery>
-<ImageView
+ImageView
 android:id="@+id/ImageView01"
 android:layout_width="wrap_content"
 android:layout_height="wrap_content"></ImageView>
