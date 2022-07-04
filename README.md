@@ -2,7 +2,7 @@
 answers
 
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -32,7 +32,7 @@ answers
         android:layout_centerHorizontal="true"
         android:layout_marginTop="84dp"
         android:text="change font" />
-</RelativeLayout>
+</RelativeLayout
 
 PROGRAM:(JAVA CODING):
 
